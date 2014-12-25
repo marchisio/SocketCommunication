@@ -5,12 +5,21 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
 
+/*
+ * Client side class which build the client side and talk with server 
+ * 
+ * @Author Lin Sun
+ * @Email sun@unm.edu
+ * */
 public class Client 
 {
 	private static int portNum = 8000;
 	private Socket clientSocket;
 	private BufferedReader reader;
 	
+	/*
+	 * Constructor
+	 * */
 	public Client(int newPortNum)
 	{
 		if(newPortNum > 3000 && newPortNum < 9000)
@@ -19,6 +28,9 @@ public class Client
 		init();
 	}
 	
+	/*
+	 * Called to run the class.
+	 * */
 	public void run()
 	{
 		try
@@ -48,6 +60,9 @@ public class Client
 		}
 	}
 	
+	/*
+	 * Called to initialize the basic components
+	 * */
 	private void init()
 	{
 		try

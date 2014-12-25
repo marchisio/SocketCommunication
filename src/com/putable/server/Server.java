@@ -6,11 +6,21 @@ import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 
+/*
+ * This file is the server side of socket communication. It will listen to 
+ * communication and response to communication
+ * 
+ * @Author Lin Sun
+ * @Email sun@unm.edu
+ * */
 public class Server 
 {
 	private static int portNum = 8000;
 	private ServerSocket serverSocket;
 	
+	/*
+	 * Constructor
+	 * */
 	public Server(int newPortNum)
 	{
 		if(newPortNum > 3000 && newPortNum < 9000)
@@ -19,6 +29,9 @@ public class Server
 		init();
 	}
 	
+	/*
+	 * Initialize the basic components in the class.
+	 * */
 	private void init()
 	{
 		try
@@ -31,6 +44,9 @@ public class Server
 		}
 	}
 	
+	/*
+	 * Called to run the class.
+	 * */
 	private void run()
 	{
 		try

@@ -3,3 +3,11 @@
 .settings/org.eclipse.jdt.ui.prefs
 
 .settings/org.eclipse.jdt.core.prefs
+
+*.html
+
+doc/script.js
+
+doc/stylesheet.css
+
+doc/package-list
