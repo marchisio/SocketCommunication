@@ -4,8 +4,6 @@
 
 .settings/org.eclipse.jdt.core.prefs
 
-*.html
-
 doc/script.js
 
 doc/stylesheet.css

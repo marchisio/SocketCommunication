@@ -3,6 +3,10 @@ SocketCommunication
 
 This repository is used to try socket communication
 
-This project is used to learn how to communicate with each other using socket. It is a startup project. If you like it, just try to change the code as you want. If not, please email me any suggestion.
+This project is used to learn how to communicate with each other using socket.
+We hope to build an open source communication project, which can be used for
+intranet communication.  
+It is only a startup project now. If you like it, just try to change the code 
+as you want. If not, please email me any suggestion.
 
 If you want to run this project, you should run Server first. After server boots up, you can run Client side and talk with server. 
